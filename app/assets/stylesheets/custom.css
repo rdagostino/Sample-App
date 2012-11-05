@@ -1,0 +1,33 @@
+body { background-color:#CFF; }
+
+.container { width:710px; }
+
+/* Header */
+header { padding-top:20px; }
+header img { padding:1em; background-color:#FFF; }
+
+/* Body */
+section { margin-top:1em; font-size:120%; padding:20px; background-color:#FFF; }
+section h1 { font-size:200%; }
+
+/* Links */
+a { color:#09C; text-decoration:none; }
+a:hover { text-decoration:underline; }
+a:visited { color:#069; }
+
+/* Navigation */
+nav { float:right; background-color:#FFF; padding:0 0.7em; }
+nav ul { margin:0; padding:0; list-style-type:none; }
+nav li { display:inline-block; padding:0.2em 0; }
+nav a { padding:0 5px; font-weight:bold; }
+nav a:visited { color:#09C; }
+
+/* Footer */
+footer { text-align:center; margin:10px auto; width:710px; }
+footer nav { float:none; }
+
+/* Sing up button */
+a.signup_button { margin:0 auto; width:190px; display:block; text-align:center; color:#FFF; background-color:#006400; font-size:150%; font-weight:bold; padding:20px; }
+
+/* Rounded corners */
+.round { -moz-border-radius:10px; -webkit-border-radius:10px; border-radius:10px; }
